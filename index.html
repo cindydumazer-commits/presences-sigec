@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
 
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
@@ -9,38 +9,90 @@
   <meta name="theme-color"
         content="#2c6fb4">
 
+  <meta name="application-name"
+        content="Présences SIGEC">
+
   <meta name="apple-mobile-web-app-title"
         content="Présences SIGEC">
 
   <meta name="apple-mobile-web-app-capable"
         content="yes">
 
-  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable"
+        content="yes">
 
-  <link rel="icon"
-        type="image/png"
-        sizes="192x192"
-        href="icon-192.png">
+  <!-- Icône de l'application -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="64x64"
+    href="favicon.png">
 
-  <link rel="apple-touch-icon"
-        href="icon-192.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="icon-192.png">
+
+  <link
+    rel="apple-touch-icon"
+    href="icon-192.png">
+
+  <!-- Manifest -->
+  <link
+    rel="manifest"
+    href="manifest.json">
 
   <title>Présences SIGEC</title>
 </head>
 
-<body style="font-family:Arial,sans-serif;text-align:center;padding:40px">
+<body
+  style="
+    margin:0;
+    background:#ffffff;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align:center;
+  ">
 
-  <p>Ouverture de <strong>Présences SIGEC</strong>…</p>
+  <div
+    style="
+      padding:40px 20px;
+    ">
 
-  <p>
-    <a href="https://script.google.com/macros/s/AKfycbw4kQOuBBOXHISv-tD1qUxXzxMW2yh9IjXTgjPL_R5bbhGSGXUcVk-ZV8VLpgfjsTyb/exec">
-      Ouvrir Présences SIGEC
-    </a>
-  </p>
+    <h1
+      style="
+        color:#2c6fb4;
+        font-size:28px;
+        margin-bottom:15px;
+      ">
+      Présences SIGEC
+    </h1>
+
+    <p>
+      Ouverture de l'application…
+    </p>
+
+    <p>
+      <a
+        href="https://script.google.com/macros/s/AKfycbw4kQOuBBOXHISv-tD1qUxXzxMW2yh9IjXTgjPL_R5bbhGSGXUcVk-ZV8VLpgfjsTyb/exec"
+        style="
+          display:inline-block;
+          padding:12px 20px;
+          background:#2c6fb4;
+          color:white;
+          text-decoration:none;
+          border-radius:8px;
+        ">
+        Ouvrir Présences SIGEC
+      </a>
+    </p>
+
+  </div>
 
   <script>
-    window.location.href =
-      "https://script.google.com/macros/s/AKfycbw4kQOuBBOXHISv-tD1qUxXzxMW2yh9IjXTgjPL_R5bbhGSGXUcVk-ZV8VLpgfjsTyb/exec";
+    window.location.replace(
+      "https://script.google.com/macros/s/AKfycbw4kQOuBBOXHISv-tD1qUxXzxMW2yh9IjXTgjPL_R5bbhGSGXUcVk-ZV8VLpgfjsTyb/exec"
+    );
   </script>
 
 </body>
